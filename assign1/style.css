@@ -6,13 +6,19 @@
 body{				/* browser resets  */
 	font-family: helvetica, arial, sans-serif;
 	font-size: 100%;
+	background-color: lightblue;
 }
 
 #wrapper{
 	width: 96%;
 	margin: 0 auto; /* first vale for top and bottom, second value for left and right */
 	font-size: 80%;
+	background-color: pink;
 }
+
+
+
+
 
 header {
 	width: 100%;
@@ -21,32 +27,36 @@ header {
 }
 
 nav{
+	width: 100%;
+	float: left;
+	height: 30px;
 	background-color:beige;
+	margin-bottom: 2%;
 }
 
 nav ul{
-	padding:5;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: .7%;
 }
 
 nav li{
-	margin-bottom:1em;
-	text-align: center;
-	list-style-type: none;
-	border-bottom: solid 1px #999;
-	padding: 0.5em;
-
+	list-style: none;
+	display: inline-block;
+	margin-left: 2%;
 }
 
 nav a{
 	text-decoration: none;
-	display: block;
-	padding:1em;
-
 }
 
 nav a:hover{
 	background-color: black;
 	color: green;
+}
+
+#about, #teaching, #events{
+	width: 100%;
 }
 
 
@@ -70,12 +80,29 @@ ul{
 	max-width: 100%
 }
 
+footer{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
 @media (min-width: 768px) {
 
 	#wrapper{
 		width: 70%;
 		margin: 0 auto;
 		font-size: 90%;
+	}
+
+	#about, #teaching, #events{
+		width: 30%;
+		float: left;
+		margin: 1.5%;
+	}
+
+	nav ul{
+		width: 30%;
+		margin: 0 auto;
 	}
 }
 
