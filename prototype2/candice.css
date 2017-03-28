@@ -1,19 +1,50 @@
+
+
+
+
+
 *{margin:0;
 padding:0
 }
 
+
+
 body{
-	 font-family: 'Open Sans', sans-serif;
-     background-image:url.("concert9.jpg");
+     background-image: url("concert5.jpg");
+     font-family: 'Open Sans', sans-serif;
+     /*background-image:url.("concert9.jpg");*/
     background-repeat: no-repeat;
     background-attachment:fixed;
     /*background-position: bottom;*/
-    background-size: cover;
+  
+    
 }
+
+
+
+header {
+    width: 100%;
+    float: left; 
+    margin-bottom: 3%;
+}
+
+#logo{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#logo img{
+    width: 100%;
+}
+
+img{min-width:100%;}
+
 .container{
-	max-width:1170px;
+	width:80%;
 	padding:5px;
 	margin:0 auto;
+    background-color: black;
 }
 #main-menu{
 	display:none;
@@ -21,121 +52,295 @@ body{
 }
 
 nav li{
-	border-bottom:solid 1px #ccc;
-	padding:0.5em;
 	list-style-type: none;
-	padding-left:1em;
+
 }
+
 nav li ul{
 	display: none;
 }
-nav li: hover ul{
-	display: block;
-}
 
 h1{
-	text-align:right;
 	margin:0.5em 0;
 }
-/* Dropdown Button */
-.dropbtn {
-    background-color: #000000;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
+
+h3 {
+	text-align: center;
+    font-size: 100%;
+     font-style: bold;
+    font-size: 180%;
+    font-family: helvetica, arial;
+    color: yellow;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+
+h5 {
+    text-align: center;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
+footer {
+	text-align: center;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    clear: both;
+    background-color: lightgrey;
+     width:100%;
+    margin:0%;
+    height:180px;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 
 
-#slideshow img, #direction img{
+
+
+/* Dropdown Button */
+
+
+
+/*#slideshow img, #direction img{
 	width:100%;
+}*/
+
+/*#lineup, #news, aside{
+	margin:1em 0;
+}*/
+
+
+
+#bar{
+    width:100%;
+    float: left;
+    height: 40px;
+    background-color: green;
 }
 
-#lineup, #news, aside{
-	margin:1em 0;
+#bar li{
+    display:inline-block;
+    list-style:none;
+    margin-right: 10%;
 }
+
+#bar ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5%;
+
+}
+
+#bar a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 70;
+    color: white;
+    
+}
+
+
+
+
+
+#slideshow img{
+    margin: auto;
+    width: 100%;
+
+}
+
 
 #lineup li{
+	
 	display:inline-block;
-	list-style-type: 0.5em;
+	list-style:none;
+    }
+
+#lineup a{
+    text-decoration: none;
+    font-weight:bold;
+    font-family: arial;
+    font-size: 100%;
+    color: white;
 }
-aside{
-	border:solid 2px #ccc;
-	border-radius: 3px;
-	padding:0.5em;
+
+#lineup a:hover{
+    background-color: white;
+    color:black;
+}
+
+#lineup {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #C70039;
+}
+
+#lineup ul {
+    width: 100%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: arial, helvetica;
+    word-spacing: 10%;
+    margin-left: 1%;
+    padding-bottom: 3%;
+}
+
+
+
+#location {
+	width: 30%;
+}
+
+
+
+
+#largebox {
+   
+    width:100%;
+    height: 100%;
+    background-color: #C70039;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+
+     
+   
+
+
+
+.mediabox:first-child{margin-left: 1%;}
+.mediabox:last-child{margin-right: 0;}
+
+
+
+#largebox h4 a:link, a:visited {
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: .7%; 
+   
+    }
+
+#largebox h4 a:hover, a:active {
+    background-color: yellow;
+
+} 
+
+
+h4{
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+.mediabox img{
+        width: 100%;
+    }
+
+
+.leftcolumn ul {
+    list-style-type: none; 
+    margin-left:1%;
+    text-align: center;
+
+}
+
+.middlecolumn ul {
+    list-style-type: none;
+    text-align: center;
+    }
+
+ .rightcolumn ul {
+     list-style-type: none;
+    text-align: center;
+ }
+
+
+
+
+.leftcolumn, .middlecolumn, .rightcolumn {
+
+width:25%;
+float:left;
+height: 25px;
+margin-left:6%;
+margin-top:2%;
 }
 
 footer{
-    clear:both;
+    width: 100%;
+    clear: both;
 }
+
+#footer_nav, .copyright{
+    width: 100%;
+    float: left;
+}
+
+
+.copyright {
+    margin-top: 5%;
+    width: 100%
+}
+
+
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+/*.social {
+    margin-top: 7%;
+}
+*/
+
+
+
 
 @media (min-width: 768px){
-nav li ul{
-	position: absolute;	
-}
-
-	nav li{
-		display: inline-block;
-	}
-	nav li ul{
-		background-color: #fff;
-	}
-
-
-#date-loc{
-	float:right;
-	width:50%;
-	text-align:right;
-}
-
-.mediabox{
-    width:32%;
-    margin-right:2%;
-    float:left;
-}
+    .mediabox {
+        width: 30%;
+        margin:2% ;
+        float: left;
+    }
     
- .mediabox img{
-     width:100%;
- }
 
-.lastbox{
-    margin-right:0;
+    
+    .mediabox:last-child{
+        margin-right:0;
+    }
+
+  
+    
+
+    #bar nav li{
+        display: inline-block;
+        border-bottom: none;
+
+  }
+
+
+.copyright {
+    width: 30%;
+    margin: 4%;
+    float: left;
 }
-} /* closes media query */
+ 
+}
+
+
+
+/*--------medium device---------*/
+/*
+@media only screen and (max-width: 700px)and (min-width: 980px){
+	.mediabox{
+		width:96%;
+		margin: 2%;
+	}
+
+    #slideshow img
+}*/
 
