@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-color: lightgrey;
+
+}
+
+header, #userbox, {
+	width: 100%;
+} 
+
+.container {
+	width: 80%;
+	margin: auto;
+	background-color:#fff;
+
+}
+header{
+	
+	background-color: pink;
+	/*/border:1px solid black;*/
+	height: 100px;
+	background: #452145;
+	
+}
+
+#icon img {
+	width:100%;
+	margin: auto;
+}
+
+
+
+.jumbotron {
+	width:70%;
+	margin: auto;
+	height:auto;
+	background: #fff;
+}

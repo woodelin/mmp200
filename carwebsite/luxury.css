@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #ffb3b3;
+
+}
+
+.container{
+  width: 80%;
+  margin:0 auto;
+  background-color:;
+
+}
+
+
+
+
+
+
+
+header{
+  background-color: #452145;
+  height: auto;
+  width: 100%;
+  float: left;
+}
+
+#reviews {
+	float: left;
+  margin-left: 1em;
+  width: 100%;
+	
+
+}
+
+#content img {
+  width: 100%;
+}
+
+
+
+h2 {
+    font-style: bold;
+    margin-left: 2em;
+
+}
+
+.col-lg-6 {
+  width:40%;
+  margin-left: 3em;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer{
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+  float: left;
+
+}
+
+footer {
+  margin-bottom:1em;
+}
+
+
+.left,.middle,.right {
+  width: 33.1%;
+  margin:auto;
+  
+}
+
+#carlogo{
+  width: 100%;
+  float: left;
+  margin-top: 1%;
+}
+
+#carlogo img{
+  width: 12%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+.left,.middle,.right {
+  width: 33.1%;
+  float: left;
+  display: inline-block;
+  margin:auto;
+  
+}
+
+
+.jumbotron {
+  width:80%;
+  margin: auto;
+  
+}
+
+
+}
